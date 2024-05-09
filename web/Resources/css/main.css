@@ -1,0 +1,145 @@
+@import url("brandon_grotesque_medium_italic_58a8a3c40866a/stylesheet.css");
+@import url("brandon_grotesque_black_58a8a3e824392/stylesheet.css");
+
+.limiter{
+    width: 100%;
+    margin: 0px auto;
+  
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url(../images/blobb.png);
+	background-size: contain;
+	overflow:hidden;
+}
+
+.login{
+    width: 100%;
+    -webkit-box-shadow: 4px 0px 11px -1px #131639;
+    box-shadow: 4px 0px 11px -1px #131639;
+}
+
+.login-info{
+    width: 60%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	height:369px;
+}
+
+.login-input{
+    width: 40%;
+    background-color:#4B55C1;
+    padding: 10px 40px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	height:369px;
+}
+
+.login-header{
+    wdith: 100%;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-family: "brandon grotesque medium italic 58a8a3c40866a";
+}
+
+.login-details{
+	padding-top:30px;
+	color:white;
+
+}
+
+.log{
+    width: 100%;
+	padding-bottom: 20px;
+}
+
+.login-in{
+	text-align: center;
+}
+
+
+.ab{
+	width: 70%;
+	padding:7px 5px;
+	background-color:#3A44A9;
+	border:none;
+	border-radius:5px;
+}
+
+.usern{
+    width: 100%;
+    padding-bottom: 5px;
+    margin-left: 58px;
+    font-family: lato;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.fp{
+    width: 100%;
+    text-align: right;
+    margin-left: -52px;
+    font-family: lato;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.fp:hover{
+    color: #000000;
+}
+
+.submit-login{
+    width: 70%;
+    border-radius: 15px;
+    border: none;
+    padding: 7px 0;
+    background-color: #FA607F;
+    color: white;
+    -webkit-box-shadow: 0px 6px 10px #2C2F4D;
+    box-shadow: 0px 6px 10px #2C2F4D;
+}
+
+.submit-login:hover{
+    background-color: #8C3547;	
+}
+
+.login-img{
+	width:300px;
+	text-align: center;
+	margin:0 auto;
+}
+
+.login-w{
+    color: #4953BF;
+    font-family: "brandon grotesque black 58a8a3e824392";
+}
+
+.login-w1{
+    font-family: actor;
+    font-style: normal;
+    font-weight: 200;
+    color: #737373;
+}
+
+.login-header.a{
+    color: black;
+    font-family: "brandon grotesque black 58a8a3e824392";
+    font-size: x-large;
+}

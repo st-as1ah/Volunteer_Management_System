@@ -1,0 +1,556 @@
+@charset "utf-8";
+@import url("brandon_grotesque_medium_italic_58a8a3c40866a/stylesheet.css");
+@import url("brandon_grotesque_black_58a8a3e824392/stylesheet.css");
+body {
+  font-family: "Lato", sans-serif;
+   background-image: url(../images/blobb.png);	
+   	background-size:cover;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4B55C1;
+  overflow-x: hidden;
+  padding-top: 20px;
+  -webkit-box-shadow: 5px 3px 7px -1px #2C2F55;
+    box-shadow: 5px 3px 7px -1px #2C2F55;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 10px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color:  white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family: actor;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+
+    color: #f1f1f1;
+    background-color: hsla(236,44%,26%,1.00);
+	border-radius:15px;
+}
+
+/* Add an active class to the active dropdown button */
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #3b44ab;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #2e3585;
+  padding-left: 12px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 10px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 12px;}
+}
+
+.bar-item{
+    color: hsla(0,0%,100%,1.00);
+    text-align: center;
+    font-family: "brandon grotesque medium italic 58a8a3c40866a";
+}
+
+.sidenav input[type="submit"]{
+	padding:0;
+	background:none;
+	border:none;
+	color:white;
+	font-size: 16px;
+}
+
+.main {
+  margin-left: 200px;  /*Same as the width of the sidenav */
+  font-size: 28px;  /*Increased text to enable scrolling */
+  padding: 0px 10px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    align-items: center;
+} 
+.box{
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	display:inline-block;
+}
+
+.box-in{
+    width: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: hsla(0,0%,100%,1.00);
+    padding: 5px;
+}
+
+.an-box{
+	width:100%;
+	background-color:white;
+	padding:10px;
+	overflow:hidden;
+        font-color:white;
+}
+
+.home-box{
+    width: 100%;
+    background-color: #F7F7F7;
+    overflow: hidden;
+    padding: 10px;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.desc{
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+    font-size: large;
+    padding: 10px 0;
+    color: #000000;
+}
+
+.desc h3{
+    font-family: "brandon grotesque black 58a8a3e824392";
+    color: #FF9E00;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-shadow: -3px 1px #000000;
+    font-size: 40px;
+}
+
+#main p{
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.home-box-in{
+    text-align: center;
+    background-image: url(../images/bg.jpg);
+	background-size:cover;
+}
+
+.an-box-in{
+    background-color: hsla(28,100%,50%,1.00);	
+	display:inline-block;
+	width:100%;
+}
+
+.an-box-in a, .an-box-in img{
+	float:left;
+}
+
+.an-box-in a{
+    padding-top: 20px;
+    font-family: "brandon grotesque black 58a8a3e824392";
+    font-size: 35px;
+    color: hsla(225,61%,86%,1.00);
+}
+
+
+.an-box.b{
+    margin-top: 20px;
+	background-color:white;
+}
+
+.an-box-in.b{
+    padding: 10px;
+    background-color: hsla(243,58%,58%,1.00);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.an-box-in.c{
+    background-color: #595959;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.an-box-in h3{
+    font-size: 34px;
+    font-family: "brandon grotesque black 58a8a3e824392";
+    color: #FFFD00;
+    text-shadow: -3px 3px #3F3F3F;
+	letter-spacing: 5px;
+	padding-left: 10px;
+}
+
+.an-box-in p{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-family: "brandon grotesque medium italic 58a8a3c40866a";
+	letter-spacing: 2px;
+	font-size:medium;
+}
+
+
+
+.an-form{
+    font-size: medium;
+    border: medium dotted hsla(0,0%,100%,1.00);
+    padding-top: 21px;
+    padding-right: 21px;
+    padding-bottom: 21px;
+    padding-left: 21px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.an-q{
+	float:left;
+}
+.an-form input[type="text"], #newcert input[type="date"], #sign, #type, #update input[type="date"]{
+    border-radius: 15px;
+    bordeR: solid hsla(0,0%,100%,1.00);
+    padding: 7px;
+    background-color: hsla(224,62%,86%,1.00);
+    margin-left: 19px;
+}
+
+#update input[type="text"], #update input[type="date"], #update2 select, #update input[type="file"]{
+    background-color: #F9F5C1;
+}
+
+#update input[type="file"]{
+	    margin-left: 19px;
+	background:none;
+}
+
+#sign{width:300px;text-align: center}
+
+.long{
+	width:400px;
+}
+
+#newcert, #botom, #update, #update2{
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+#update, #update2{
+	color:white;
+}
+
+
+
+#newcert td{
+    padding: 5px 0;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+.an-btn-box{
+	width:100%;
+	text-align: center;
+	
+}
+
+.an-btn-box a{
+	width:100%;
+}
+
+.an-btn-box input[type="submit"]{
+    padding: 10px 5px;
+    border-radius: 15px;
+    border: none;
+    width: 50%;
+    background-color: hsla(152,86%,42%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    -webkit-box-shadow: 0px 5px 6px -2px #10462A;
+    box-shadow: 0px 5px 6px -2px #10462A;
+    font-family: "brandon grotesque black 58a8a3e824392";
+    margin-top: 19px;
+    text-shadow: 1px 2px #000000;
+}
+.an-btn-box input[type="reset"]{
+    padding: 10px 5px;
+    border-radius: 15px;
+    border: none;
+    width: 90%;
+    background-color: hsla(152,86%,42%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    -webkit-box-shadow: 0px 5px 6px -2px #10462A;
+    box-shadow: 0px 5px 6px -2px #10462A;
+    font-family: "brandon grotesque black 58a8a3e824392";
+    margin-top: 19px;
+    text-shadow: 1px 2px #000000;
+}
+.an-btn-box input[type="reset"]:hover{
+    background-color: hsla(152,88%,26%,1.00);
+}
+
+#search{
+	padding-bottom: 20px;
+}
+
+#search input[type="text"]{
+	width:60%;
+	padding:5px;
+}
+
+#search input[type="submit"]{
+    padding: 6.4px;
+    border: none;
+    margin-left: -8px;
+	width:100px;
+}
+
+#search input[type="submit"]:hover{
+    background-color: #464646;	
+	color:white;
+}
+#history{
+    background-color: #FFA300;
+    border-radius: 6px;
+    font-size: large;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    overflow: scroll;
+
+}
+
+#history td, th {
+    text-align: left;
+    padding: 8px;
+    cursor: pointer;
+   
+}
+
+#history tr:nth-child(even){
+    background-color: #FBFBFB;	
+	color:black
+			 
+}
+
+#history tr:nth-child(odd){
+    background-color: #DDDDDD;
+	color:black;
+}
+
+#history th{
+    background-color: #FFA300;
+    color: white;
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#history td{
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    color: #1D1D1D;
+}
+
+.h-btn{
+    background-color: #EF2A2A;
+    border: none;
+    color: white;
+    padding: 5px;
+	width:100%;
+}
+
+#history tr:hover{
+    background-color: #8B8B8B;
+}
+
+.history-total{
+    border-radius: 7px;
+    border: thin solid #FFFF;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    margin-top: 30px;
+    font-size: medium;
+}
+.h-btn.u{ background-color: #16A76C;}
+.h-btn.u:hover{background-color: #053220;}
+.h-btn.d:hover{background-color: #631010;}
+.h-btn.v{background-color: #FF9900;padding:5px 0;}
+.h-btn.v:hover{
+    background-color: #945900;
+}
+
+.addnewc-box{
+    width: 100%;
+    display: block;
+    text-align: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding:10px;
+}
+
+.addnewc-box button{
+    background-color: #5EB453;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.addnewc-box button:hover{
+    background-color: #2F5F28;
+}
+
+.cert-box{
+    border: medium solid #000000;
+    padding: 10px;
+    background-image: url(../images/certificate.jpg);
+	background-size:cover;
+}
+
+.cert-logo{
+    width: 100%;
+    text-align: center;
+    font-family: alex-brush;
+    font-style: normal;
+    font-weight: 400;
+	font-size:50px;
+}
+
+.cert-line{
+    font-size: medium;
+    font-style: normal;
+    font-weight: 400;
+    font-family: andada;
+    text-align: center;
+}
+
+.cert-line.b{
+    margin-top: 26px;
+    font-family: dancing-script;
+    font-style: normal;
+    font-weight: 400;
+	font-size:20px;
+}
+
+.cert-line.c{
+    font-family: abril-fatface;
+    font-style: normal;
+    font-weight: 400;	
+	padding-top:20px;
+	font-size:20px;
+	letter-spacing: 1px;
+}
+
+.cert-line.d{
+    padding-top: 14px;	
+}
+
+.sign{
+    padding-top: 35px;	
+	text-align: center;
+}
+
+.sign-cert{
+	    padding-top: 35px;
+		text-align: center;
+}
+.sign-name{
+    text-align: center;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cert-btn{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.cert-btn input[type="button"]{
+    border-radius: 2px;
+    bordeR: none;
+    padding: 5px 20px;
+    background-color: #35FF59;
+    width: 50%;
+    font-family: "brandon grotesque black 58a8a3e824392";
+	letter-spacing: 5px;
+	font-size:20px;
+	
+}
+
+.cert-btn input[type="button"]:hover{
+    background-color: #1FA437;
+}
+
+@media print
+{
+.sidenav  { display: visible; }
+.sidenav { position: absolute; top: 40px; left: 30px; }
+}
+
+.sign{
+    margin-left: 17px;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+
+#details{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#details th{
+    background-color: #A59FC7;
+	font-size:medium;
+	padding:10px;
+}
+#details td{padding:10px;}
+#details tr:nth-child(even){background-color: #C7C7C7;}
+#details tr:nth-child(even):hover, #details tr:nth-child(odd):hover{ background-color: #AAA8A8;}
+#details tr:nth-child(odd){ background-color: #E8E8E8;}
+#details td{font-size:small;}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
